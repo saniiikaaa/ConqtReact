@@ -1,0 +1,87 @@
+
+
+.filter-container {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto; 
+  }
+  
+  .filter-button {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width:200px;
+    text-align: center;
+  }
+  .box-for-filter {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+  
+  }
+  h1{
+    color: rgb(0, 0, 0);
+    border: 1.5px rgb(198, 198, 198) solid;
+    padding: 5px;
+    width: 100px;
+  }
+  .filter-icon {
+    margin-left: 8px;
+  }
+  
+  .filter-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .clear-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .filter-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .filter-list li {
+    padding: 8px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  margin-bottom: 8px;
+  }
+  
+  .filter-list li:hover {
+    background-color: #f0f0f0;
+  }
+  .arrow-icon {
+    font-size: 16px; 
+    color: #ccc; 
+    margin-left: 8px;
+  }
+  
